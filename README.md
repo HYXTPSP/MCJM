@@ -6,6 +6,10 @@
 ![Fabric](https://img.shields.io/badge/Mod%20Loader-Fabric-orange)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 
+<p align="center">
+  <img src="assets/icon.png" width="128" alt="MCJM Icon">
+</p>
+
 ---
 
 ## 简介
@@ -15,6 +19,34 @@ MCJM 是一个 Minecraft Fabric 模组，让你可以在游戏中下载并阅读
 - **打印机方块** — 放入书 + 输入 JM 编号，将漫画打印成漫画书
 - **漫画书物品** — 可翻阅/滚动的漫画书，支持单页/双页模式
 - **Python 后端服务器** — 负责下载漫画图片并转码
+
+---
+
+## 截图
+
+<p align="center">
+  <img src="assets/printer_model.png" width="400" alt="打印机模型">
+  <br>
+  <em>打印机方块</em>
+</p>
+
+<p align="center">
+  <img src="assets/printer_gui.png" width="600" alt="打印机 GUI">
+  <br>
+  <em>打印机界面 - 输入 JM 编号打印漫画</em>
+</p>
+
+<p align="center">
+  <img src="assets/crafting_recipe.png" width="450" alt="合成配方">
+  <br>
+  <em>打印机合成配方</em>
+</p>
+
+<p align="center">
+  <img src="assets/comic_reading.png" width="800" alt="漫画阅读界面">
+  <br>
+  <em>漫画阅读界面 - 支持翻页/滚动、单页/双页</em>
+</p>
 
 ---
 
@@ -74,6 +106,12 @@ MCJM 是一个 Minecraft Fabric 模组，让你可以在游戏中下载并阅读
 MCJM/
 ├── mcjm.jar                    # Fabric 模组 (已编译)
 ├── 使用说明.txt                 # 简易说明
+├── assets/                     # 资源文件
+│   ├── icon.png                # 项目图标
+│   ├── crafting_recipe.png     # 合成配方截图
+│   ├── printer_gui.png         # 打印机 GUI 截图
+│   ├── printer_model.png       # 打印机模型截图
+│   └── comic_reading.png       # 漫画阅读界面截图
 ├── Python安装包（请先安装我）/
 │   ├── python-3.14.6-amd64.exe # Python 安装包
 │   └── 图解安装python.png      # 安装教程
