@@ -1,0 +1,20 @@
+MCJM 漫画打印机 Mod - 使用说明
+========================================
+
+[依赖]
+1. Minecraft Java Edition 1.21.11 (Fabric)
+2. Fabric Loader + Fabric API
+3. Python 3.8+（安装包放到一起的）
+
+[安装]
+1. 将 mcjm.jar 放入 .minecraft/mods/
+2. 每次玩之前双击 server/start_server.cmd（保持窗口打开）
+3. 启动 Minecraft
+
+[使用]
+放书 → 输入JM编号 → 打印 → 看漫画
+
+[配方]
+红染料 绿染料 蓝染料
+铁块   黑染料 铁块
+钻石   红石块 钻石
